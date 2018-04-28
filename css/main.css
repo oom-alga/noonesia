@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------------------
-	
+
 	Template Name: Nusa
 	Author: Alga Kharisma
 	Author URI: http://www.woonesia.com
@@ -11,26 +11,26 @@
 
 	/* =======================================================
 	* 	Maps For Css Style
-	* ======================================================= 
+	* =======================================================
 		1. Typography
-		   1.1 Cutive Mono Font 
+		   1.1 Cutive Mono Font
 		   1.2 Josefin Sans Font
-		   1.3 Open Sans Font 
+		   1.3 Open Sans Font
 		2. Standard Styling
 		   2.1 Body Styling
-		   2.2 Basic Styling 
+		   2.2 Basic Styling
 		   2.3 Font Styling
 		   2.4 Button Styling
 		   2.5 A Styling
 		   2.6 List Styling
 		   2.7 Image Responsive Styling
-		   2.8 Section Styling 
+		   2.8 Section Styling
 		   2.9 Form Input Styling
 		   2.10 Typing
 		3. Header
 		   3.1 Header Basic
 		   3.2 Header Content
-		   3.3 Basic logo 
+		   3.3 Basic logo
 		   3.4nav Header
 		   3.5nav Header Effect
 		   3.6nav Button Header
@@ -45,7 +45,7 @@
 		   4.8 Button View All & Pagination Content
 		5. service
 		   5.1 Service Basic
-		   5.2 Service Content 
+		   5.2 Service Content
 		6. Social
 		   6.1 Social Content
 		   6.2 Social Content Effect
@@ -53,19 +53,19 @@
 		   7.1 Maps Styling
 		8. Sidebar
 		   8.1 Sidebar Basic
-		   8.2 Sidebar Categories 
+		   8.2 Sidebar Categories
 		   8.3 Sidebar About
-		   8.4 Sidebar Banner Images 
+		   8.4 Sidebar Banner Images
 		   8.5 Sidebar Tag
 		9. Content Touch Me
-		   9.1 Content Touch Me Basic 
-		   9.2 Content Touch Me Top 
-		   9.3 Content Touch Me left 
-		   9.4 Content Touch Me Right 
+		   9.1 Content Touch Me Basic
+		   9.2 Content Touch Me Top
+		   9.3 Content Touch Me left
+		   9.4 Content Touch Me Right
 		10. Footer
-		   10.1 Footer Basic 
-		   10.2 Company Name 
-		   10.3 Copyright 
+		   10.1 Footer Basic
+		   10.2 Company Name
+		   10.3 Copyright
 
 	* ======================================================= */
 
@@ -189,7 +189,7 @@
 		.img-flex{
 		  -webkit-box-flex: auto;
 		  -ms-flex: auto;
-		  flex: auto; 
+		  flex: auto;
 		}
 
 		.img-flex img {
@@ -310,7 +310,7 @@
 			letter-spacing: 3px;
 		}
 
-	/*--nav Header Effect --*/	
+	/*--nav Header Effect --*/
 		.dropdown .dropdown-menu{
 			margin-top: 25px;
 			border:0px ;
@@ -537,33 +537,33 @@
 			transition: all ease .5s;
 			display: inline-block;
 		}
-		.portfolio-item { 
+		.portfolio-item {
 			-webkit-box-flex: auto;
 			-ms-flex: auto;
-			flex: auto; 
-			width: 350px; 
+			flex: auto;
+			width: 350px;
 		}
-		.portfolio-item.siji{ 
+		.portfolio-item.siji{
 			-webkit-box-flex: auto;
 			-ms-flex: auto;
-			flex: auto; 
-			width: 100%; 
+			flex: auto;
+			width: 100%;
 		}
-		.portfolio-item.loro{ 
+		.portfolio-item.loro{
 			-webkit-box-flex: auto;
 			-ms-flex: auto;
-			flex: auto; 
-			width: 50%; 
+			flex: auto;
+			width: 50%;
 		}
-		.portfolio-item.telu{ 
+		.portfolio-item.telu{
 			-webkit-box-flex: auto;
 			-ms-flex: auto;
-			flex: auto; 
-			width: 33.3333%; 
+			flex: auto;
+			width: 33.3333%;
 		}
-		.portfolio-item img { 
-			width: 100%; 
-			height: auto; 
+		.portfolio-item img {
+			width: 100%;
+			height: auto;
 		}
 
 		#portfolio .portfolio-item {
@@ -615,8 +615,8 @@
 			display: -ms-flexbox;
 			-ms-flex-wrap: wrap;
 			-ms-flex-direction: column;
-			-webkit-flex-flow: row wrap; 
-			flex-flow: row wrap; 
+			-webkit-flex-flow: row wrap;
+			flex-flow: row wrap;
 			display: -webkit-box;
 			display: flex;
 		}
@@ -699,7 +699,7 @@
 			padding: 30px 30px 50px 30px;
 		}
 		.article-text-footer ul li{
-			list-style: none;	
+			list-style: none;
 		}
 		.article-text-footer li{
 			float: left;
@@ -713,15 +713,15 @@
 			color: #fff;
 		}
 
-	/*-- Article Style Two And Article Style Two --*/	
+	/*-- Article Style Two And Article Style Two --*/
 		.detail-2 #content-article, .detail-3 #content-article{
 			padding-bottom: 50px;
 		}
 		.detail-2 #content-sidebar, .detail-3 #content-sidebar{
 			padding: 50px 15px;
 		}
-	
-	/*-- Article Masonry --*/	
+
+	/*-- Article Masonry --*/
 		#masonry{
 			padding: 150px 15px;
 		}
@@ -755,11 +755,11 @@
 		}
 
 
-	/*-- Figure Hover --*/		
+	/*-- Figure Hover --*/
 
 		.masonry-me #columns figure{
 			position: relative;
-		} 
+		}
 
 		.masonry-me #columns figure .caption {
 			position: absolute;
@@ -805,7 +805,7 @@
 		}
 
 
-		@media screen and (max-width: 750px) { 
+		@media screen and (max-width: 750px) {
 		  .masonry-me #columns { column-gap: 0px; }
 		  .masonry-me #columns figure { width: 100%; }
 		}
@@ -845,7 +845,7 @@
 			float: right;
 			margin-right: 30px;
 			width: auto;
-			padding: 10px 20px 5px;	
+			padding: 10px 20px 5px;
 			border: 1px solid #ccc;
 			background-color: #fff;
 			-webkit-transition: all 0.3s; /* Safari */
@@ -857,7 +857,7 @@
 			border:1px dotted #e84545;
 		}
 		.pagination{
-			padding: 30px 0; 
+			padding: 30px 0;
 		}
 		.pagination>li>a, .pagination>li>span{
 			color: #333;
@@ -879,7 +879,7 @@
 * ======================================================= */
 	/*-- Service Basic --*/
 		#service{
-			padding: 50px 0; 
+			padding: 50px 0;
 			margin-bottom: 50px;
 		}
 		.service h4 {
@@ -915,7 +915,7 @@
 			font-size:18px;
 			color:#595959;
 			margin:15px auto;
-			width:40px;	
+			width:40px;
 			height: 40px;
 			padding: 5px;
 			display: inline-block;
@@ -951,7 +951,7 @@
 		#site-social .top-button:hover{
 			color:#e84545;
 		}
-		
+
 /* =======================================================
 * 	Maps
 * ======================================================= */
@@ -1015,7 +1015,7 @@
 
 /* =======================================================
 * 	Content Touch Me
-* ======================================================= */	
+* ======================================================= */
 	/*-- Content Touch Me Basic --*/
 		#touch-me{
 			padding: 50px 0;
@@ -1033,7 +1033,7 @@
 			width: 100%;
 			height: 100%;
 			top: 0;
-		}		
+		}
 		.item-data,
 		.item-data p,
 		.touch-me-left-detail-icon,
@@ -1121,7 +1121,7 @@
 /* =======================================================
 * 	About
 * ======================================================= */
-	/*-- About  Two--*/	
+	/*-- About  Two--*/
 		.about-1 .me img,
 		.about-2 .me img,
 		.about-3 .me img{
@@ -1135,6 +1135,7 @@
 			height: 300px;
 			background-size: cover;
 			background-repeat: no-repeat;
+			background-attachment: fixed;
 			position: relative;
 			background-image: url(../images/background/background6.jpg);
 		}
@@ -1156,13 +1157,13 @@
 			padding: 60px 0;
 		}
 		.about-2 #content-article .skill .icon{
-			font-size: 5em;
+			font-size: 3.5em;
 		}
 
 /* =======================================================
 * 	Page
 * ======================================================= */
-	
+
 	/*-- Page Siji--*/
 		#page{
 			padding: 150px 15px 50px;
@@ -1172,18 +1173,18 @@
 		#welcome-slide{
            animation: backAn 50s infinite;
            background: url(../images/background/background5.jpg);
-           background-color:#cdc8c4; 
-           padding:0; 
-           margin:0; 
-           width:100%; 
+           background-color:#cdc8c4;
+           padding:0;
+           margin:0;
+           width:100%;
            height:100vh;
            position: relative;
         }
 
         #welcome-slide #grizzly{
-           mix-blend-mode: screen; 
-           position: absolute; 
-           width:100%; 
+           mix-blend-mode: screen;
+           position: absolute;
+           width:100%;
            height:100%;
            z-index:2;
         }

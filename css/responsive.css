@@ -12,7 +12,7 @@
 	.nav-toggle {
 		display: block;
 	}
-	.navigation {
+	nav {
 		position: fixed;
 		background-color: #fff;
 		width: 100%;
@@ -25,7 +25,7 @@
 		-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
 		transition: opacity 0.5s, visibility 0s 0.5s;
 	}
-	.navigation .primary-nav {
+	nav .primary-nav {
 		position: relative;
 		top: 45%;
 		-moz-transform: translateY(-45%);
@@ -33,13 +33,13 @@
 		-webkit-transform: translateY(-45%);
 		transform: translateY(-45%);
 	}
-	.navigation li {
+	nav li {
 		display: block;
 		font-size: 25px;
 			text-align: center;
 		margin-bottom: 20px;
 	}
-	.navigation a {
+	nav a {
 		display: block;
 		font-size: 25px;
 		margin: 0;
@@ -54,10 +54,10 @@
 	#header .header-content {
 		padding: 30px 0%;
 	}
-	.portfolio-item.siji, .portfolio-item.loro, .portfolio-item.telu{ 
-		width: 350px; 
+	.portfolio-item.siji, .portfolio-item.loro, .portfolio-item.telu{
+		width: 350px;
 	}
-	.navigation, .navigation a {
+	nav, nav a {
 		margin-left: 0px;
 	}
 	.flexslider {
@@ -78,24 +78,25 @@
 	}
 	.hero-content p {
 		margin-top: 0px;
-
 	}
 	.hero-content h4 {
 		margin-top: 25%;
-
 	}
 	.service {
 	    margin: 50px 0 50px 0;
 	}
 	.btn{
-		margin-top:40%;	
+		margin-top:40%;
+	}
+	#touch-me{
+		display: none;
 	}
 }
 @media screen and (max-width: 640px) {
 	#header .header-content {
 		padding: 30px 0%;
 	}
-	.navigation, .navigation a {
+	nav, nav a {
 		margin-left: 0px;
 	}
 	.hero {
@@ -113,14 +114,14 @@
 	    margin: 50px 0 50px 0;
 	}
 	.btn{
-	margin-top:10%;	
+	margin-top:10%;
 	}
 }
 @media screen and (max-width: 480px) {
 	#header .header-content {
 		padding: 30px 0%;
 	}
-	.navigation, .navigation a {
+	nav, nav a {
 		margin-left: 0px;
 	}
 	.hero {
@@ -149,7 +150,7 @@
 	#header .header-content {
 		padding: 30px 2%;
 	}
-	.navigation, .navigation a {
+	nav, nav a {
 		margin-left: 0px;
 	}
 	.hero {

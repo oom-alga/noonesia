@@ -13,7 +13,7 @@
 
   	// Page Scroll
     	var sections = $('section')
-    		nav = $('nav[role="navigation"]');
+    		nav = $('nav');
 
     	$(window).on('scroll', function () {
     	  	var cur_pos = $(this).scrollTop();
@@ -40,12 +40,12 @@
         $(this).toggleClass('close-nav');
         nav.toggleClass('open');
         return false;
-      }); 
+      });
       nav.find('a').on('click', function() {
         $('.nav-toggle').toggleClass('close-nav');
         nav.toggleClass('open');
       });
-    	
+
 
 
     // Ajax
@@ -104,9 +104,7 @@
 
 // niceScroll
   $(document).ready(function() {
-  
-    $("html").niceScroll({cursorborderradius: "0px",cursorborder: "0px",zindex:"99999",smoothscroll: true}); 
-
+    $("html").niceScroll({cursorborderradius: "0px",cursorborder: "0px",zindex:"99999",smoothscroll: true});
   });
 
 // scroll
@@ -118,8 +116,8 @@
     .click(function(event) {
       // On-page links
       if (
-        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-        && 
+        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+        &&
         location.hostname == this.hostname
       ) {
         // Figure out element to scroll to
@@ -151,7 +149,7 @@
   function initialize() {
     var mapOptions = {
       center: {
-        lat: 40.7499256, 
+        lat: 40.7499256,
         lng: -73.9854028
       },
       zoom: 15,
@@ -159,42 +157,42 @@
       panControl: false,
       streetViewControl: false
     };
-    
+
     var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-    
+
     var img = "images/pict.png";
-    
+
     var NewYork = new google.maps.Marker({
         position: mapOptions.center,
         map: map,
         icon: img
     });
-    
+
     var London = new google.maps.Marker({
         position: {lat: 51.5106122, lng: -0.1529072},
         map: map,
         icon: img
     });
-    
+
     var Paris = new google.maps.Marker({
         position: {lat: 48.8588589, lng: 2.3470599},
         map: map,
         icon: img
     });
-    
+
     var HongKong = new google.maps.Marker({
         position: {lat: 22.2753729, lng: 114.1757384},
         map: map,
         icon: img
     });
-    
+
     var markers = {
       'NewYork': NewYork,
       'London': London,
       'Paris': Paris,
       'HongKong': HongKong
     };
-    
+
     var styles = [
      {
           "featureType": "all",
@@ -362,20 +360,20 @@
           ]
       }
     ];
-  
+
     map.setOptions({styles: styles});
-  
+
     function getCoords (position) {
        var text = position.replace(/[()]/g,'').split(", ");
        var lat = Number(text[0]);
        var lng = Number(text[1]);
-      
+
        return {
          lat: lat,
          lng: lng
        };
     }
-  
+
     $('.maps .service').on('click', function () {
         $('.maps .service').removeClass('active');
        $(this).addClass('active');
@@ -391,7 +389,7 @@
   	var textOpts = ["I am Kharisma", "Full Stack Developer", "Knows HTML", "Experiment CSS3", "Loves Elegant UI", "MODERN, MINIMAL & INSPIRING."],
   		timeOut,
   		len = textOpts.length,
-  		$writer = $('#writer'), 
+  		$writer = $('#writer'),
   		currentValue = 0, charVal = 0,
   		cursor = '<span class="cursor">|</span>',
   		lengths = [];
@@ -399,7 +397,7 @@
   		$.each(textOpts, function( index, value ) {
   		     lengths.push( value.length );
   	  	});
-  		
+
   		function typeAnimationIt() {
   			var humanize = Math.round(Math.random() * (200 - 30)) + 30;
   			timeOut = setTimeout(function() {
@@ -438,4 +436,3 @@
 
   		typeAnimationIt();
   });
-
