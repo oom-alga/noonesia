@@ -91,6 +91,13 @@
 	#touch-me{
 		display: none;
 	}
+	.masonry-me.loro #columns, .masonry-me.telu #columns {
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    -moz-column-count: 1; /* Firefox */
+	    column-count: 1;
+		column-gap: 15px;
+	  	width: 100%;
+	}
 }
 @media screen and (max-width: 640px) {
 	#header .header-content {
